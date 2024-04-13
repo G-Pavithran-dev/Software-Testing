@@ -16,23 +16,31 @@ public class ClassExerciseApplication {
 		
 		try{
 			WebDriver driver = new ChromeDriver();
+
 			driver.get("https://www.demoblaze.com");
 			Thread.sleep(5000);
+
 			driver.findElement(By.linkText("Laptops")).click();
 			Thread.sleep(5000);
+
 			driver.findElement(By.linkText("MacBook air")).click();
 			Thread.sleep(5000);
+
 			driver.findElement(By.linkText("Add to cart")).click();
-			// driver.findElement(By.linkText("Ok")).click();
 			Thread.sleep(3000);
+
 			driver.switchTo().alert().accept();
 			Thread.sleep(3000);
+			
 			driver.findElement(By.linkText("Cart")).click();
-			Thread.sleep(5000);
-			List<WebElement> list =  driver.findElements(By.tagName("td"));
+			driver.findElement(By.xpath("\\*starts-with[@id='temrs']"));
 
+			List<WebElement> list =  driver.findElements(By.tagName("td"));
 			System.out.println("Title : "+list.get(1).getText());
 			System.out.println("Price : "+list.get(2).getText());
+			
+			Thread.sleep(5000);
+			driver.close();
 		}
 		catch(Exception e)
 		{
