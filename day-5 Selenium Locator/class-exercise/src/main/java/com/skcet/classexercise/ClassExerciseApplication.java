@@ -31,15 +31,8 @@ public class ClassExerciseApplication {
 			Thread.sleep(5000);
 			List<WebElement> list =  driver.findElements(By.tagName("td"));
 
-			System.out.println(list.);
-			int i = 0;
-			for(WebElement ele : list)
-			{
-				if(i == 1 || i ==2)
-					System.out.println(ele.getText());
-
-				i++;
-			}
+			System.out.println("Title : "+list.get(1).getText());
+			System.out.println("Price : "+list.get(2).getText());
 		}
 		catch(Exception e)
 		{
