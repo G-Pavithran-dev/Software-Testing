@@ -2,7 +2,6 @@ package com.skcet.practiceathome;
 
 import java.io.File;
 import java.io.IOException;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -15,9 +14,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class PracticeAtHomeApplication {
-
+public static WebDriver driver;
 	public static void main(String[] args) throws InterruptedException, IOException {
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		Actions actions = new Actions(driver);
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 
@@ -27,13 +26,22 @@ public class PracticeAtHomeApplication {
 		driver.findElement(By.id("search")).click();
 		Thread.sleep(3000);
 
-		//type in search
+		//enter the Shoes in search
 		driver.findElement(By.id("search")).sendKeys("Shoes");
 		Thread.sleep(3000);
 
 		//click the search icon to search
 		driver.findElement(By.xpath("//*[@id='search_mini_form']/div[2]/button")).click();
 		Thread.sleep(3000);
+
+		//check the presence
+		if(driver.findElement(By.xpath("//main[@id='maincontent']/div/h1/span")).getText().contains("Shoes"))
+		{
+			System.out.println("Confirmed the Presence of Text: Shoes");
+		}
+		else{
+			System.out.println("Text: Shoes was not present");
+		}
 
 		//Capture Screen using TakeScreenshot
 		TakesScreenshot ts = (TakesScreenshot)driver;
@@ -60,6 +68,8 @@ public class PracticeAtHomeApplication {
 		//navigate back to home
 		driver.navigate().back();
 		driver.navigate().back();
+
+		// driver.navigate().to("https://magento.softwaretestingboard.com/");
 
 		//scroll down to shop tees
 		js.executeScript("window.scrollBy(0,300)", "");
@@ -104,5 +114,4 @@ public class PracticeAtHomeApplication {
 
 		driver.quit();
 	}
-
 }
