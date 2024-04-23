@@ -21,8 +21,9 @@ public class EventsDemoApplication {
 		driver.get("https://mouse-demo-ui.vercel.app");
 		Thread.sleep(5000);
 
+		
 		driver.manage().window().maximize();
-
+		
 		// double click
 		WebElement double_click = driver.findElement(By.id("double_click"));
 		actions
@@ -30,17 +31,17 @@ public class EventsDemoApplication {
 			.doubleClick(double_click)
 			.perform();
 		Thread.sleep(2000);
-
+		
 		driver.switchTo().alert().accept();
-		Thread.sleep(5000);
-
+		Thread.sleep(4000);
+		
 		// click and relese
 		WebElement click = driver.findElement(By.id("click"));
 		actions
 			.click(click)
 			.perform();
 		Thread.sleep(2000);
-
+		
 		driver.switchTo().alert().accept();
 		Thread.sleep(4000);
 
@@ -52,37 +53,54 @@ public class EventsDemoApplication {
 			.release()
 			.perform();
 		Thread.sleep(4000);
-
+		
 		// hover
 		WebElement hover = driver.findElement(By.id("hover"));
 		actions
 			.moveToElement(hover)
 			.perform();
 		Thread.sleep(4000);
-
+		
+		
+		actions
+		.sendKeys(Keys.ESCAPE)
+		.perform();
+		
+		// drag and drop
+		driver.navigate().to("https://www.selenium.dev/selenium/web/mouse_interaction.html");
+		Thread.sleep(5000);
+		
+		WebElement drag = driver.findElement(By.id("draggable"));
+		WebElement drop = driver.findElement(By.id("droppable"));
+		actions
+		.dragAndDrop(drag, drop)
+		.perform();
+		Thread.sleep(5000);
+		
+		driver.navigate().to("https://www.onlinemictest.com/keyboard-test/");
+		Thread.sleep(5000);
+		
+		// keyboard testing
+		WebElement demo = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/article/div/div[2]/div[3]/div[2]/div[1]/div[2]/div/ul/li[1]"));
+		actions
+		.scrollToElement(demo)
+				.keyDown(Keys.CONTROL)
+				.pause(Duration.ofSeconds(4))
+				.sendKeys(Keys.ADD)
+				.pause(Duration.ofSeconds(4))
+				.keyUp(Keys.CONTROL)
+				.perform();
+				
+		Thread.sleep(10000);
+				
 		// context_menu
 		actions
 			.contextClick()
 			.perform();
 		Thread.sleep(5000);
 
-		actions
-			.keyDown(Keys.ESCAPE)
-			.keyUp(Keys.ESCAPE)
-			.perform();
-
-		// drag and drop
-		driver.navigate().to("https://www.selenium.dev/selenium/web/mouse_interaction.html");
-		Thread.sleep(5000);
-
-		WebElement drag = driver.findElement(By.id("draggable"));
-		WebElement drop = driver.findElement(By.id("droppable"));
-		actions
-			.dragAndDrop(drag, drop)
-			.perform();
-		Thread.sleep(15000);
-
 		driver.quit();
 	}
-
+			
 }
+		
