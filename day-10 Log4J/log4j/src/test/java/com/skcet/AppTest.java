@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -25,15 +26,21 @@ public class AppTest
 
     @BeforeTest
     public void setup(){
-        driver = new BraveDriver();
-        logger = LogManager.getLogger(getClass());
-        wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        // driver = new BraveDriver();
+        // logger = LogManager.getLogger(getClass());
+        // wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        System.out.println("BeforeTest");
+    }
+
+    @BeforeMethod
+    public void before()
+    {
+        System.out.println("before method");
     }
 
     @Test
     public void openMoneyControl() {
-        driver.get("https://www.moneycontrol.com/");
-        logger.info("Money Control WebPage opened");
+        System.out.println("Test");
     }
 
     @AfterTest

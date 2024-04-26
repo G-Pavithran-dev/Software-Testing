@@ -19,8 +19,7 @@ import org.testng.annotations.Test;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-{
+public class AppTest {
     Logger log;
     Actions actions;
     WebDriver driver;
@@ -28,40 +27,43 @@ public class AppTest
     JavascriptExecutor js;
 
     @BeforeTest
+<<<<<<< Updated upstream
     public void setup()
     {
+=======
+    public void setup() {
+>>>>>>> Stashed changes
         driver = new ChromeDriver();
         actions = new Actions(driver);
         js = (JavascriptExecutor) driver;
         log = LogManager.getLogger(getClass());
         wait = new WebDriverWait(driver, Duration.ofSeconds(30));
     }
-    
+
     @Test
-    public void openMoneyControl()
-    {
-		driver.get("https://www.moneycontrol.com");
+    public void openMoneyControl() {
+        driver.get("https://www.moneycontrol.com");
         log.info("Opened Website");
     }
 
-
     @Test(dependsOnMethods = "openMoneyControl")
-    public void hoverMutualFunds(){
+    public void hoverMutualFunds() {
         // hover the mutual funds
         wait = new WebDriverWait(driver, Duration.ofSeconds(40));
         wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("Mutual Funds")));
         WebElement mutualFund = driver.findElement(By.linkText("Mutual Funds"));
         actions.moveToElement(mutualFund);
-        
+
         log.info("mutual funds hovered without clicking");
     }
-    
+
     @Test(dependsOnMethods = "hoverMutualFunds")
     public void navigateToSIPReturns() {
         // after hovering on mutual funds, goto sip returns
         WebElement mutualFund = driver.findElement(By.linkText("Mutual Funds"));
         actions.moveToElement(mutualFund).perform();
-        WebElement sipReturns = driver.findElement(By.cssSelector("#common_header > div.header_desktop > div.bottom_nav > nav > div > ul > li:nth-child(10) > div > div > ul > li:nth-child(2) > ul > li:nth-child(5) > a"));
+        WebElement sipReturns = driver.findElement(By.cssSelector(
+                "#common_header > div.header_desktop > div.bottom_nav > nav > div > ul > li:nth-child(10) > div > div > ul > li:nth-child(2) > ul > li:nth-child(5) > a"));
         sipReturns.click();
         log.info("navigated to SIP Returns");
     }
@@ -69,7 +71,7 @@ public class AppTest
     @Test(dependsOnMethods = "navigateToSIPReturns")
     public void selectAxisFund() {
         // select Axis bank on mutual fund
-        By elementXpath= By.xpath("//*[@id=\"ff_id\"]");
+        By elementXpath = By.xpath("//*[@id=\"ff_id\"]");
         wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         wait.until(ExpectedConditions.presenceOfElementLocated(elementXpath));
 
@@ -83,7 +85,7 @@ public class AppTest
     @Test(dependsOnMethods = "selectAxisFund")
     public void selectScheme() {
         // select given scheme
-        By elementXpath= By.xpath("//*[@id=\"im_id\"]");
+        By elementXpath = By.xpath("//*[@id=\"im_id\"]");
         wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         wait.until(ExpectedConditions.presenceOfElementLocated(elementXpath));
 
@@ -97,14 +99,14 @@ public class AppTest
     @Test(dependsOnMethods = "selectScheme")
     public void setAmount() {
         // enter the amount as 100000
-        By elementXpath= By.xpath("//*[@id=\"invamt\"]");
+        By elementXpath = By.xpath("//*[@id=\"invamt\"]");
         String amountToBeFilled = "100000";
         wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         wait.until(ExpectedConditions.presenceOfElementLocated(elementXpath));
 
         WebElement amount = driver.findElement(elementXpath);
         amount.sendKeys(amountToBeFilled);
-    
+
         log.info("amount setted as 100000");
     }
 
@@ -112,7 +114,7 @@ public class AppTest
     public void setStartDate() {
         // set the start date
         String start_date = "2021-08-02";
-        By elementXpath= By.xpath("//*[@id=\"stdt\"]");
+        By elementXpath = By.xpath("//*[@id=\"stdt\"]");
         wait.until(ExpectedConditions.presenceOfElementLocated(elementXpath));
 
         WebElement startDate = driver.findElement(elementXpath);
@@ -125,7 +127,7 @@ public class AppTest
     public void setEndDate() {
         // set the end date
         String end_date = "2023-08-17";
-        By elementXpath= By.xpath("//*[@id=\"endt\"]");
+        By elementXpath = By.xpath("//*[@id=\"endt\"]");
         wait.until(ExpectedConditions.presenceOfElementLocated(elementXpath));
 
         WebElement startDate = driver.findElement(elementXpath);
@@ -137,7 +139,7 @@ public class AppTest
     @Test(dependsOnMethods = "setEndDate")
     public void calculateMutualFund() {
         // caluclate mutual funds
-        By elementXpath= By.xpath("//*[@id=\"mc_mainWrapper\"]/div[2]/div/div[3]/div[2]/div[2]/form/div[8]/input");
+        By elementXpath = By.xpath("//*[@id=\"mc_mainWrapper\"]/div[2]/div/div[3]/div[2]/div[2]/form/div[8]/input");
 
         WebElement calculateButton = driver.findElement(elementXpath);
         calculateButton.click();
@@ -148,7 +150,7 @@ public class AppTest
     @Test(dependsOnMethods = "calculateMutualFund")
     public void getInvestmentPeriod() {
         // get the investment period
-        By elementXpath= By.xpath("//*[@id=\"mc_mainWrapper\"]/div[2]/div/div[3]/div[2]/div[6]/table/tbody/tr[1]");
+        By elementXpath = By.xpath("//*[@id=\"mc_mainWrapper\"]/div[2]/div/div[3]/div[2]/div[6]/table/tbody/tr[1]");
         wait.until(ExpectedConditions.presenceOfElementLocated(elementXpath));
         WebElement investment = driver.findElement(elementXpath);
 
@@ -158,15 +160,14 @@ public class AppTest
     @Test(dependsOnMethods = "getInvestmentPeriod")
     public void getInvestedAmount() {
         // get total invvested amount
-        By elementXpath= By.xpath("//*[@id=\"mc_mainWrapper\"]/div[2]/div/div[3]/div[2]/div[6]/table/tbody/tr[3]");
+        By elementXpath = By.xpath("//*[@id=\"mc_mainWrapper\"]/div[2]/div/div[3]/div[2]/div[6]/table/tbody/tr[3]");
         WebElement amount = driver.findElement(elementXpath);
 
         log.info(amount.getText());
     }
 
     @AfterTest
-    public void close()
-    {
+    public void close() {
         // close the driver
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.quit();
