@@ -1,0 +1,40 @@
+// search bar (id)
+search_str
+
+// auto suggestion
+/html/body/div[3]/header/div[1]/div[1]/div/div/div[2]/div/div/form/div[2]/div[2]/ul/li[1]/a
+
+// reliance indutries
+/html/body/div[13]/div[2]/div[2]/div[2]/div[1]/div/h1
+
+// mutual funds
+/html/body/header/div[1]/div[3]/nav/div/ul/li[10]/a
+
+//sip returns
+//*[@id=\"common_header\"]/div[1]/div[7]/nav/div/ul/li[10]/div/div/ul/li[2]/ul/li[5]/a
+
+//axis select
+//*[@id=\"ff_id\"]
+	// value of axis bank
+	AA
+
+//axis regular plan
+//*[@id=\"im_id\"]
+
+// amount to 10000
+//*[@id=\"invamt\"]
+
+//  start date YYYY-MM-dd
+//*[@id=\"stdt\"]
+
+// end date
+//*[@id=\"endt\"]
+
+// calculate
+//*[@id=\"mc_mainWrapper\"]/div[2]/div/div[3]/div[2]/div[2]/form/div[8]/input
+
+// investment
+//*[@id=\"mc_mainWrapper\"]/div[2]/div/div[3]/div[2]/div[6]/table/tbody/tr[1]
+
+// amount invested
+//*[@id=\"mc_mainWrapper\"]/div[2]/div/div[3]/div[2]/div[6]/table/tbody/tr[3]

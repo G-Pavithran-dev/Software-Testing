@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.skcet.AppTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 1, Errors: 0, Skipped: 12, Time elapsed: 2.32 s <<< FAILURE! - in com.skcet.AppTest
+setup(com.skcet.AppTest)  Time elapsed: 2.164 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/logging/log4j/util/Lazy
+	at com.skcet.AppTest.setup(AppTest.java:38)
+Caused by: java.lang.ClassNotFoundException: org.apache.logging.log4j.util.Lazy
+	at com.skcet.AppTest.setup(AppTest.java:38)
+

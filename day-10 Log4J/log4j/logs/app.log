@@ -1,0 +1,18 @@
+25 Apr 2024 09:59:00 INFO : [TestNG] Running:
+  Command line suite
+
+25 Apr 2024 09:59:00 INFO : This is info msg
+25 Apr 2024 09:59:00 ERROR: This is error msg
+25 Apr 2024 09:59:00 WARN : This is warning msg
+25 Apr 2024 09:59:00 FATAL: This is fatal msg
+25 Apr 2024 10:07:01 INFO : This is info msg
+25 Apr 2024 10:07:02 ERROR: This is error msg
+25 Apr 2024 10:07:02 WARN : This is warning msg
+25 Apr 2024 10:07:02 FATAL: This is fatal msg
+25 Apr 2024 11:41:14 INFO : [TestNG] Running:
+  Command line suite
+
+25 Apr 2024 11:45:03 INFO : [TestNG] Running:
+  Command line suite
+
+25 Apr 2024 14:44:13 INFO : Money Control WebPage opened

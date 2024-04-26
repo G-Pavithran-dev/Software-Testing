@@ -1,0 +1,22 @@
+26 Apr 2024 00:37:01 INFO : Opened Website
+26 Apr 2024 00:37:01 INFO : mutual funds page opened
+26 Apr 2024 00:37:05 INFO : navigated to SIP Returns
+26 Apr 2024 00:37:08 INFO : selected Aixs Bank
+26 Apr 2024 00:37:10 INFO : selected given scheme
+26 Apr 2024 00:37:10 INFO : amount setted as 100000
+26 Apr 2024 00:37:10 INFO : start date setted as 2021-08-02
+26 Apr 2024 00:37:10 INFO : end date setted as 2023-08-17
+26 Apr 2024 00:37:13 INFO : calculating Mutual Funds
+
+26 Apr 2024 07:23:39 INFO : Opened Website
+26 Apr 2024 07:23:39 INFO : mutual funds hovered without clicking
+26 Apr 2024 07:23:42 INFO : navigated to SIP Returns
+26 Apr 2024 07:23:44 INFO : selected Aixs Bank
+26 Apr 2024 07:23:46 INFO : selected given scheme
+26 Apr 2024 07:23:47 INFO : amount setted as 100000
+26 Apr 2024 07:23:47 INFO : start date setted as 2021-08-02
+26 Apr 2024 07:23:47 INFO : end date setted as 2023-08-17
+26 Apr 2024 07:23:49 INFO : calculating Mutual Funds
+26 Apr 2024 07:23:50 INFO : Investment Period Aug 02, 2021 to Aug 17, 2023
+26 Apr 2024 07:23:50 INFO : Total Amount Invested (Rs)
+2,500,000.00
