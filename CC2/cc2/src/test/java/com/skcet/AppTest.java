@@ -47,7 +47,7 @@ public class AppTest {
 
     static final String REPORT_FILE_PATH = "D:\\projects\\Software-Testing\\CC2\\cc2\\src\\main\\resources\\report.html";
     static final String EXCEL_FILE_PATH = "D:\\projects\\Software-Testing\\CC2\\cc2\\src\\main\\resources\\Data.xlsx";
-    static final String SCREENSHOT_PATH = "screenshots\\Sign in pop-up screenshoted.png";
+    static final String SCREENSHOT_PATH = "../../../screenshots/Sign in pop-up screenshoted.png";
     String BOOK_NAME = "";
     String eleXpath = "";
 
