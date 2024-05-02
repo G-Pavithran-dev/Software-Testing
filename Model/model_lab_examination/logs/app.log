@@ -1,0 +1,553 @@
+02 May 2024 15:06:01 DEBUG: Parsing relationship: /xl/_rels/workbook.xml.rels
+02 May 2024 15:06:01 DEBUG: Parsing relationship: /_rels/.rels
+02 May 2024 15:06:01 TRACE: Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:06:01 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:06:01 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:06:01 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:06:01 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:06:01 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:06:01 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:06:01 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:06:01 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:06:01 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:06:01 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:06:01 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:06:01 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:06:01 TRACE: Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:06:01 TRACE: Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:06:01 TRACE: Resolving type for handle themefd26doctype
+02 May 2024 15:06:01 TRACE: Resolving type for handle stylesheet5d8bdoctype
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctstylesheet4257type
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctfonts6623type
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctfont14d8type
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctfills2c6ftype
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctfill550ctype
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctborders0d66type
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctborderf935type
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctcellxfs1322type
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctxf97f7type
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctcellstylexfsa81ftype
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctdxfsb26atype
+02 May 2024 15:06:01 TRACE: Resolving type for handle cttablestyles872ftype
+02 May 2024 15:06:01 TRACE: Resolving type for handle sstf81fdoctype
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctsst44f3type
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctrsta472type
+02 May 2024 15:06:01 TRACE: Resolving type for handle workbookec17doctype
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctworkbook83c3type
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctsheets49fdtype
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctsheet4dbetype
+02 May 2024 15:06:01 TRACE: Resolving type for handle strelationshipid1e94type
+02 May 2024 15:06:01 TRACE: Resolving type for handle worksheetf539doctype
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctworksheet530dtype
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctcols627ctype
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctsheetdata8408type
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctrowdd39type
+02 May 2024 15:06:01 TRACE: Resolving type for handle ctcell842btype
+02 May 2024 15:06:01 TRACE: Resolving type for handle stcellrefe4e0type
+02 May 2024 15:06:01 TRACE: Resolving type for handle stcelltypebf95type
+02 May 2024 15:06:01 TRACE: Resolving type for handle stxstringf179type
+02 May 2024 15:06:01 INFO : Test initated
+02 May 2024 15:06:01 INFO : Navigating to webpage
+02 May 2024 15:06:04 INFO : Search for Bangalore data from excel
+02 May 2024 15:08:08 DEBUG: Parsing relationship: /xl/_rels/workbook.xml.rels
+02 May 2024 15:08:08 DEBUG: Parsing relationship: /_rels/.rels
+02 May 2024 15:08:08 TRACE: Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:08:08 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:08:08 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:08:08 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:08:08 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:08:08 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:08:08 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:08:08 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:08:08 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:08:08 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:08:08 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:08:08 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:08:08 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:08:08 TRACE: Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:08:08 TRACE: Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:08:08 TRACE: Resolving type for handle themefd26doctype
+02 May 2024 15:08:08 TRACE: Resolving type for handle stylesheet5d8bdoctype
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctstylesheet4257type
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctfonts6623type
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctfont14d8type
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctfills2c6ftype
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctfill550ctype
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctborders0d66type
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctborderf935type
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctcellxfs1322type
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctxf97f7type
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctcellstylexfsa81ftype
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctdxfsb26atype
+02 May 2024 15:08:08 TRACE: Resolving type for handle cttablestyles872ftype
+02 May 2024 15:08:08 TRACE: Resolving type for handle sstf81fdoctype
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctsst44f3type
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctrsta472type
+02 May 2024 15:08:08 TRACE: Resolving type for handle workbookec17doctype
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctworkbook83c3type
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctsheets49fdtype
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctsheet4dbetype
+02 May 2024 15:08:08 TRACE: Resolving type for handle strelationshipid1e94type
+02 May 2024 15:08:08 TRACE: Resolving type for handle worksheetf539doctype
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctworksheet530dtype
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctcols627ctype
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctsheetdata8408type
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctrowdd39type
+02 May 2024 15:08:08 TRACE: Resolving type for handle ctcell842btype
+02 May 2024 15:08:08 TRACE: Resolving type for handle stcellrefe4e0type
+02 May 2024 15:08:08 TRACE: Resolving type for handle stcelltypebf95type
+02 May 2024 15:08:08 TRACE: Resolving type for handle stxstringf179type
+02 May 2024 15:08:08 INFO : Test initated
+02 May 2024 15:08:08 INFO : Navigating to webpage
+02 May 2024 15:08:12 INFO : Search for Bangalore data from excel
+02 May 2024 15:08:12 INFO : click "let's go" button
+02 May 2024 15:08:14 INFO : scrolling down to view filters
+02 May 2024 15:08:14 INFO : choosing asian as a cusine filter
+02 May 2024 15:17:24 DEBUG: Parsing relationship: /xl/_rels/workbook.xml.rels
+02 May 2024 15:17:24 DEBUG: Parsing relationship: /_rels/.rels
+02 May 2024 15:17:24 TRACE: Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:17:24 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:17:24 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:17:24 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:17:24 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:17:24 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:17:24 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:17:24 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:17:24 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:17:24 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:17:24 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:17:24 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:17:24 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:17:24 TRACE: Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:17:24 TRACE: Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:17:24 TRACE: Resolving type for handle themefd26doctype
+02 May 2024 15:17:24 TRACE: Resolving type for handle stylesheet5d8bdoctype
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctstylesheet4257type
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctfonts6623type
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctfont14d8type
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctfills2c6ftype
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctfill550ctype
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctborders0d66type
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctborderf935type
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctcellxfs1322type
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctxf97f7type
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctcellstylexfsa81ftype
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctdxfsb26atype
+02 May 2024 15:17:24 TRACE: Resolving type for handle cttablestyles872ftype
+02 May 2024 15:17:24 TRACE: Resolving type for handle sstf81fdoctype
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctsst44f3type
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctrsta472type
+02 May 2024 15:17:24 TRACE: Resolving type for handle workbookec17doctype
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctworkbook83c3type
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctsheets49fdtype
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctsheet4dbetype
+02 May 2024 15:17:24 TRACE: Resolving type for handle strelationshipid1e94type
+02 May 2024 15:17:24 TRACE: Resolving type for handle worksheetf539doctype
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctworksheet530dtype
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctcols627ctype
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctsheetdata8408type
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctrowdd39type
+02 May 2024 15:17:24 TRACE: Resolving type for handle ctcell842btype
+02 May 2024 15:17:24 TRACE: Resolving type for handle stcellrefe4e0type
+02 May 2024 15:17:24 TRACE: Resolving type for handle stcelltypebf95type
+02 May 2024 15:17:24 TRACE: Resolving type for handle stxstringf179type
+02 May 2024 15:17:24 INFO : Test initated
+02 May 2024 15:17:24 INFO : Navigating to webpage
+02 May 2024 15:17:28 INFO : Search for Bangalore data from excel
+02 May 2024 15:17:28 INFO : click "let's go" button
+02 May 2024 15:17:30 INFO : scrolling down to view filters
+02 May 2024 15:17:31 INFO : choosing asian as a cusine filter
+02 May 2024 15:17:31 INFO : Selecting the first asian restarunt
+02 May 2024 15:17:48 DEBUG: Parsing relationship: /xl/_rels/workbook.xml.rels
+02 May 2024 15:17:48 DEBUG: Parsing relationship: /_rels/.rels
+02 May 2024 15:17:48 TRACE: Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:17:48 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:17:48 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:17:48 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:17:48 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:17:48 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:17:48 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:17:48 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:17:48 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:17:48 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:17:48 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:17:48 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:17:48 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:17:48 TRACE: Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:17:48 TRACE: Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:17:48 TRACE: Resolving type for handle themefd26doctype
+02 May 2024 15:17:48 TRACE: Resolving type for handle stylesheet5d8bdoctype
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctstylesheet4257type
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctfonts6623type
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctfont14d8type
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctfills2c6ftype
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctfill550ctype
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctborders0d66type
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctborderf935type
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctcellxfs1322type
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctxf97f7type
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctcellstylexfsa81ftype
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctdxfsb26atype
+02 May 2024 15:17:48 TRACE: Resolving type for handle cttablestyles872ftype
+02 May 2024 15:17:48 TRACE: Resolving type for handle sstf81fdoctype
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctsst44f3type
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctrsta472type
+02 May 2024 15:17:48 TRACE: Resolving type for handle workbookec17doctype
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctworkbook83c3type
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctsheets49fdtype
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctsheet4dbetype
+02 May 2024 15:17:48 TRACE: Resolving type for handle strelationshipid1e94type
+02 May 2024 15:17:48 TRACE: Resolving type for handle worksheetf539doctype
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctworksheet530dtype
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctcols627ctype
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctsheetdata8408type
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctrowdd39type
+02 May 2024 15:17:48 TRACE: Resolving type for handle ctcell842btype
+02 May 2024 15:17:48 TRACE: Resolving type for handle stcellrefe4e0type
+02 May 2024 15:17:48 TRACE: Resolving type for handle stcelltypebf95type
+02 May 2024 15:17:48 TRACE: Resolving type for handle stxstringf179type
+02 May 2024 15:17:48 INFO : Test initated
+02 May 2024 15:17:48 INFO : Navigating to webpage
+02 May 2024 15:17:51 INFO : Search for Bangalore data from excel
+02 May 2024 15:17:52 INFO : click "let's go" button
+02 May 2024 15:17:54 INFO : scrolling down to view filters
+02 May 2024 15:17:54 INFO : choosing asian as a cusine filter
+02 May 2024 15:17:54 INFO : Selecting the first asian restarunt
+02 May 2024 15:19:37 DEBUG: Parsing relationship: /xl/_rels/workbook.xml.rels
+02 May 2024 15:19:37 DEBUG: Parsing relationship: /_rels/.rels
+02 May 2024 15:19:38 TRACE: Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:19:38 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:19:38 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:19:38 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:19:38 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:19:38 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:19:38 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:19:38 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:19:38 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:19:38 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:19:38 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:19:38 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:19:38 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:19:38 TRACE: Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:19:38 TRACE: Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:19:38 TRACE: Resolving type for handle themefd26doctype
+02 May 2024 15:19:38 TRACE: Resolving type for handle stylesheet5d8bdoctype
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctstylesheet4257type
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctfonts6623type
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctfont14d8type
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctfills2c6ftype
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctfill550ctype
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctborders0d66type
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctborderf935type
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctcellxfs1322type
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctxf97f7type
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctcellstylexfsa81ftype
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctdxfsb26atype
+02 May 2024 15:19:38 TRACE: Resolving type for handle cttablestyles872ftype
+02 May 2024 15:19:38 TRACE: Resolving type for handle sstf81fdoctype
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctsst44f3type
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctrsta472type
+02 May 2024 15:19:38 TRACE: Resolving type for handle workbookec17doctype
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctworkbook83c3type
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctsheets49fdtype
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctsheet4dbetype
+02 May 2024 15:19:38 TRACE: Resolving type for handle strelationshipid1e94type
+02 May 2024 15:19:38 TRACE: Resolving type for handle worksheetf539doctype
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctworksheet530dtype
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctcols627ctype
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctsheetdata8408type
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctrowdd39type
+02 May 2024 15:19:38 TRACE: Resolving type for handle ctcell842btype
+02 May 2024 15:19:38 TRACE: Resolving type for handle stcellrefe4e0type
+02 May 2024 15:19:38 TRACE: Resolving type for handle stcelltypebf95type
+02 May 2024 15:19:38 TRACE: Resolving type for handle stxstringf179type
+02 May 2024 15:19:38 INFO : Test initated
+02 May 2024 15:19:38 INFO : Navigating to webpage
+02 May 2024 15:19:42 INFO : Search for Bangalore data from excel
+02 May 2024 15:19:42 INFO : click "let's go" button
+02 May 2024 15:19:44 INFO : scrolling down to view filters
+02 May 2024 15:19:45 INFO : choosing asian as a cusine filter
+02 May 2024 15:19:45 INFO : Selecting the first asian restarunt
+02 May 2024 15:21:00 DEBUG: Parsing relationship: /xl/_rels/workbook.xml.rels
+02 May 2024 15:21:00 DEBUG: Parsing relationship: /_rels/.rels
+02 May 2024 15:21:01 TRACE: Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:21:01 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:21:01 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:21:01 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:21:01 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:21:01 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:21:01 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:21:01 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:21:01 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:21:01 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:21:01 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:21:01 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:21:01 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:21:01 TRACE: Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:21:01 TRACE: Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:21:01 TRACE: Resolving type for handle themefd26doctype
+02 May 2024 15:21:01 TRACE: Resolving type for handle stylesheet5d8bdoctype
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctstylesheet4257type
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctfonts6623type
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctfont14d8type
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctfills2c6ftype
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctfill550ctype
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctborders0d66type
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctborderf935type
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctcellxfs1322type
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctxf97f7type
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctcellstylexfsa81ftype
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctdxfsb26atype
+02 May 2024 15:21:01 TRACE: Resolving type for handle cttablestyles872ftype
+02 May 2024 15:21:01 TRACE: Resolving type for handle sstf81fdoctype
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctsst44f3type
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctrsta472type
+02 May 2024 15:21:01 TRACE: Resolving type for handle workbookec17doctype
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctworkbook83c3type
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctsheets49fdtype
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctsheet4dbetype
+02 May 2024 15:21:01 TRACE: Resolving type for handle strelationshipid1e94type
+02 May 2024 15:21:01 TRACE: Resolving type for handle worksheetf539doctype
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctworksheet530dtype
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctcols627ctype
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctsheetdata8408type
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctrowdd39type
+02 May 2024 15:21:01 TRACE: Resolving type for handle ctcell842btype
+02 May 2024 15:21:01 TRACE: Resolving type for handle stcellrefe4e0type
+02 May 2024 15:21:01 TRACE: Resolving type for handle stcelltypebf95type
+02 May 2024 15:21:01 TRACE: Resolving type for handle stxstringf179type
+02 May 2024 15:21:01 INFO : Test initated
+02 May 2024 15:21:01 INFO : Navigating to webpage
+02 May 2024 15:21:04 INFO : Search for Bangalore data from excel
+02 May 2024 15:21:05 INFO : click "let's go" button
+02 May 2024 15:21:06 INFO : scrolling down to view filters
+02 May 2024 15:21:07 INFO : choosing asian as a cusine filter
+02 May 2024 15:21:07 INFO : Selecting the first asian restarunt
+02 May 2024 15:24:44 DEBUG: Parsing relationship: /xl/_rels/workbook.xml.rels
+02 May 2024 15:24:44 DEBUG: Parsing relationship: /_rels/.rels
+02 May 2024 15:24:44 TRACE: Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:24:44 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:24:44 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:24:44 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:24:44 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:24:44 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:24:44 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:24:44 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:24:44 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:24:44 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:24:44 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:24:44 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:24:44 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:24:44 TRACE: Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:24:44 TRACE: Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:24:44 TRACE: Resolving type for handle themefd26doctype
+02 May 2024 15:24:45 TRACE: Resolving type for handle stylesheet5d8bdoctype
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctstylesheet4257type
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctfonts6623type
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctfont14d8type
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctfills2c6ftype
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctfill550ctype
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctborders0d66type
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctborderf935type
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctcellxfs1322type
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctxf97f7type
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctcellstylexfsa81ftype
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctdxfsb26atype
+02 May 2024 15:24:45 TRACE: Resolving type for handle cttablestyles872ftype
+02 May 2024 15:24:45 TRACE: Resolving type for handle sstf81fdoctype
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctsst44f3type
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctrsta472type
+02 May 2024 15:24:45 TRACE: Resolving type for handle workbookec17doctype
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctworkbook83c3type
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctsheets49fdtype
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctsheet4dbetype
+02 May 2024 15:24:45 TRACE: Resolving type for handle strelationshipid1e94type
+02 May 2024 15:24:45 TRACE: Resolving type for handle worksheetf539doctype
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctworksheet530dtype
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctcols627ctype
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctsheetdata8408type
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctrowdd39type
+02 May 2024 15:24:45 TRACE: Resolving type for handle ctcell842btype
+02 May 2024 15:24:45 TRACE: Resolving type for handle stcellrefe4e0type
+02 May 2024 15:24:45 TRACE: Resolving type for handle stcelltypebf95type
+02 May 2024 15:24:45 TRACE: Resolving type for handle stxstringf179type
+02 May 2024 15:24:45 INFO : Test initated
+02 May 2024 15:24:45 INFO : Navigating to webpage
+02 May 2024 15:24:48 INFO : Search for Bangalore data from excel
+02 May 2024 15:24:48 INFO : click "let's go" button
+02 May 2024 15:24:50 INFO : scrolling down to view filters
+02 May 2024 15:24:50 INFO : choosing asian as a cusine filter
+02 May 2024 15:24:51 INFO : Selecting the first asian restarunt
+02 May 2024 15:24:52 INFO : switch to new tab
+02 May 2024 15:24:53 INFO : Screenshot Taken
+02 May 2024 15:27:40 DEBUG: Parsing relationship: /xl/_rels/workbook.xml.rels
+02 May 2024 15:27:40 DEBUG: Parsing relationship: /_rels/.rels
+02 May 2024 15:27:41 TRACE: Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:27:41 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:27:41 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:27:41 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:27:41 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:27:41 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:27:41 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:27:41 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:27:41 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:27:41 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:27:41 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:27:41 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:27:41 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:27:41 TRACE: Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:27:41 TRACE: Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:27:41 TRACE: Resolving type for handle themefd26doctype
+02 May 2024 15:27:41 TRACE: Resolving type for handle stylesheet5d8bdoctype
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctstylesheet4257type
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctfonts6623type
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctfont14d8type
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctfills2c6ftype
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctfill550ctype
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctborders0d66type
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctborderf935type
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctcellxfs1322type
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctxf97f7type
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctcellstylexfsa81ftype
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctdxfsb26atype
+02 May 2024 15:27:41 TRACE: Resolving type for handle cttablestyles872ftype
+02 May 2024 15:27:41 TRACE: Resolving type for handle sstf81fdoctype
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctsst44f3type
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctrsta472type
+02 May 2024 15:27:41 TRACE: Resolving type for handle workbookec17doctype
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctworkbook83c3type
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctsheets49fdtype
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctsheet4dbetype
+02 May 2024 15:27:41 TRACE: Resolving type for handle strelationshipid1e94type
+02 May 2024 15:27:41 TRACE: Resolving type for handle worksheetf539doctype
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctworksheet530dtype
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctcols627ctype
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctsheetdata8408type
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctrowdd39type
+02 May 2024 15:27:41 TRACE: Resolving type for handle ctcell842btype
+02 May 2024 15:27:41 TRACE: Resolving type for handle stcellrefe4e0type
+02 May 2024 15:27:41 TRACE: Resolving type for handle stcelltypebf95type
+02 May 2024 15:27:41 TRACE: Resolving type for handle stxstringf179type
+02 May 2024 15:27:41 INFO : Test initated
+02 May 2024 15:27:41 INFO : Navigating to webpage
+02 May 2024 15:27:46 INFO : Search for Bangalore data from excel
+02 May 2024 15:27:46 INFO : click "let's go" button
+02 May 2024 15:27:49 INFO : scrolling down to view filters
+02 May 2024 15:27:49 INFO : choosing asian as a cusine filter
+02 May 2024 15:27:49 INFO : Selecting the first asian restarunt
+02 May 2024 15:27:51 INFO : switch to new tab
+02 May 2024 15:27:51 INFO : Screenshot Taken
+02 May 2024 15:28:15 DEBUG: Parsing relationship: /xl/_rels/workbook.xml.rels
+02 May 2024 15:28:15 DEBUG: Parsing relationship: /_rels/.rels
+02 May 2024 15:28:15 TRACE: Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:28:15 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:28:15 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:28:15 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:28:15 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:28:15 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:28:15 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:28:15 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:28:15 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:28:15 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:28:15 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:28:15 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:28:15 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:28:15 TRACE: Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:28:15 TRACE: Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:28:15 TRACE: Resolving type for handle themefd26doctype
+02 May 2024 15:28:15 TRACE: Resolving type for handle stylesheet5d8bdoctype
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctstylesheet4257type
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctfonts6623type
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctfont14d8type
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctfills2c6ftype
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctfill550ctype
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctborders0d66type
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctborderf935type
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctcellxfs1322type
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctxf97f7type
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctcellstylexfsa81ftype
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctdxfsb26atype
+02 May 2024 15:28:15 TRACE: Resolving type for handle cttablestyles872ftype
+02 May 2024 15:28:15 TRACE: Resolving type for handle sstf81fdoctype
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctsst44f3type
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctrsta472type
+02 May 2024 15:28:15 TRACE: Resolving type for handle workbookec17doctype
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctworkbook83c3type
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctsheets49fdtype
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctsheet4dbetype
+02 May 2024 15:28:15 TRACE: Resolving type for handle strelationshipid1e94type
+02 May 2024 15:28:15 TRACE: Resolving type for handle worksheetf539doctype
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctworksheet530dtype
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctcols627ctype
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctsheetdata8408type
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctrowdd39type
+02 May 2024 15:28:15 TRACE: Resolving type for handle ctcell842btype
+02 May 2024 15:28:15 TRACE: Resolving type for handle stcellrefe4e0type
+02 May 2024 15:28:15 TRACE: Resolving type for handle stcelltypebf95type
+02 May 2024 15:28:15 TRACE: Resolving type for handle stxstringf179type
+02 May 2024 15:28:15 INFO : Test initated
+02 May 2024 15:28:15 INFO : Navigating to webpage
+02 May 2024 15:28:18 INFO : Search for Bangalore data from excel
+02 May 2024 15:28:18 INFO : click "let's go" button
+02 May 2024 15:28:20 INFO : scrolling down to view filters
+02 May 2024 15:28:21 INFO : choosing asian as a cusine filter
+02 May 2024 15:28:21 INFO : Selecting the first asian restarunt
+02 May 2024 15:28:22 INFO : switch to new tab
+02 May 2024 15:28:23 INFO : Screenshot Taken
+02 May 2024 15:28:44 DEBUG: Parsing relationship: /xl/_rels/workbook.xml.rels
+02 May 2024 15:28:44 DEBUG: Parsing relationship: /_rels/.rels
+02 May 2024 15:28:44 TRACE: Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:28:44 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:28:44 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:28:44 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:28:44 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:28:44 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:28:44 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+02 May 2024 15:28:44 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:28:44 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+02 May 2024 15:28:44 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:28:44 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+02 May 2024 15:28:44 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:28:44 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+02 May 2024 15:28:44 TRACE: Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:28:44 TRACE: Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+02 May 2024 15:28:44 TRACE: Resolving type for handle themefd26doctype
+02 May 2024 15:28:44 TRACE: Resolving type for handle stylesheet5d8bdoctype
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctstylesheet4257type
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctfonts6623type
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctfont14d8type
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctfills2c6ftype
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctfill550ctype
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctborders0d66type
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctborderf935type
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctcellxfs1322type
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctxf97f7type
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctcellstylexfsa81ftype
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctdxfsb26atype
+02 May 2024 15:28:44 TRACE: Resolving type for handle cttablestyles872ftype
+02 May 2024 15:28:44 TRACE: Resolving type for handle sstf81fdoctype
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctsst44f3type
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctrsta472type
+02 May 2024 15:28:44 TRACE: Resolving type for handle workbookec17doctype
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctworkbook83c3type
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctsheets49fdtype
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctsheet4dbetype
+02 May 2024 15:28:44 TRACE: Resolving type for handle strelationshipid1e94type
+02 May 2024 15:28:44 TRACE: Resolving type for handle worksheetf539doctype
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctworksheet530dtype
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctcols627ctype
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctsheetdata8408type
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctrowdd39type
+02 May 2024 15:28:44 TRACE: Resolving type for handle ctcell842btype
+02 May 2024 15:28:44 TRACE: Resolving type for handle stcellrefe4e0type
+02 May 2024 15:28:44 TRACE: Resolving type for handle stcelltypebf95type
+02 May 2024 15:28:44 TRACE: Resolving type for handle stxstringf179type
+02 May 2024 15:28:44 INFO : Test initated
+02 May 2024 15:28:44 INFO : Navigating to webpage
+02 May 2024 15:28:48 INFO : Search for Bangalore data from excel
+02 May 2024 15:28:48 INFO : click "let's go" button
+02 May 2024 15:28:49 INFO : scrolling down to view filters
+02 May 2024 15:28:50 INFO : choosing asian as a cusine filter
+02 May 2024 15:28:50 INFO : Selecting the first asian restarunt
+02 May 2024 15:28:52 INFO : switch to new tab
+02 May 2024 15:28:52 INFO : Screenshot Taken
